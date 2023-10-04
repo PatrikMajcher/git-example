@@ -1,0 +1,105 @@
+* , *::before , *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html {
+    font-size: 62.5%;
+}
+
+
+h3 {
+    font-size: 2.5rem;
+}
+
+
+body {
+    background-image: url(./images/kitchen.jpg);
+    background-color: #E3E6E6;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 1.5rem;
+    height: 100vh;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #007185;
+}
+
+a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+
+
+.a-foot {
+    margin-top: 1rem;
+    padding-left: 4rem;
+    
+}
+
+.btn{
+    background-color: #FFD814; 
+    border: none;
+    border-radius: 10px;
+    color: black;
+    padding: 1rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    width: 80%;
+    
+   
+}
+
+.btnh {
+    display: flex;
+    place-content: center;
+    width: 100%;
+}
+
+
+
+.firstr {
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.secondr {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 740px;
+    left: 20px;
+
+}
+
+.signb {
+    width: 288px;
+    height: 150px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    
+}
+
+.card {
+    width: 353px;
+    height: 420px;
+    background-color: white;
+    padding: 20px 10px;
+}
+
+.card-heading {
+    padding-left: 3rem;
+}

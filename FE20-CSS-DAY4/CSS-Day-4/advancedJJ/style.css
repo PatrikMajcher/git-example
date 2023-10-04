@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /* when defining the height the size of columns/rows can be 1 fr */
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.broad {
+    grid-column: span 2;
+}
+
+.big {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.image {
+    outline: 1px solid black;
+    background-size: cover;
+}
+
+#fir {
+    background-image: url("https://cdn.pixabay.com/photo/2016/12/10/21/28/plums-1898196_1280.jpg");
+    background-position: 50%;
+}
+
+#sec {
+    background-image: url("https://cdn.pixabay.com/photo/2015/02/13/00/43/apples-634572_1280.jpg");
+    background-position-y: 80%;
+}
+
+#thi {
+    background-image: url("https://cdn.pixabay.com/photo/2017/07/28/14/29/macarons-2548827_1280.jpg");
+}
+
+#fou {
+    background-image: url("https://cdn.pixabay.com/photo/2017/05/02/18/20/blueberries-2278921_1280.jpg");
+}
+
+#fif {
+    background-image: url("https://cdn.pixabay.com/photo/2017/01/31/09/30/raspberries-2023404_1280.jpg");
+    background-position-y: 20%;
+}
+
+#six {
+    background-image: url("https://cdn.pixabay.com/photo/2017/12/01/16/14/cookies-2991174_1280.jpg");
+}

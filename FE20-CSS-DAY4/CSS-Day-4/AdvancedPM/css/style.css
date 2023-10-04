@@ -1,0 +1,53 @@
+* , *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2.5rem;
+    line-height: 1.5;
+    background-color: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.photo-album {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+    grid-gap: 20px;
+}
+
+
+.bigcol {
+    grid-column: span 2;
+}
+
+.bigcolrow {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+
+.photo {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.photo:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
